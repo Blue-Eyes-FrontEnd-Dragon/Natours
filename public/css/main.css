@@ -31,5 +31,22 @@ body {
 .header .logo-box .logo {
   height: 35px;
 }
+.header .heading-primary {
+  color: white;
+  text-transform: uppercase;
+  margin: auto;
+}
+.header .heading-primary .heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 35px;
+}
+.header .heading-primary .heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 17.4px;
+}
 
 /*# sourceMappingURL=main.css.map */
