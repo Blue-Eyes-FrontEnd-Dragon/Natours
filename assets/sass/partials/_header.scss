@@ -36,6 +36,9 @@
 
             color: white;
             text-transform: uppercase;
+
+            /** Fix animation shake **/ 
+            backface-visibility: hidden;
     
             .heading-primary-main {
                 display: block;

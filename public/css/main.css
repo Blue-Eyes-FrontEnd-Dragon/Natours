@@ -69,6 +69,8 @@ body {
 .header .text-box .heading-primary {
   color: white;
   text-transform: uppercase;
+  /** Fix animation shake **/
+  backface-visibility: hidden;
 }
 .header .text-box .heading-primary .heading-primary-main {
   display: block;
