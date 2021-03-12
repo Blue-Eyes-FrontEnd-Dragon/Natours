@@ -44,7 +44,11 @@
                 letter-spacing: 35px;
 
                 animation-name: moveInLeft;
-                animation-duration: 3s;
+                animation-duration: 1s;
+                animation-timing-function: ease-out;
+                
+                // animation-iteration-count: 3;
+                // animation-delay: 3s;
             }
     
             .heading-primary-sub {
