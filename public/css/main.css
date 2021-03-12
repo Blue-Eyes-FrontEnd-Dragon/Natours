@@ -34,9 +34,11 @@ body {
 .header .text-box {
   position: absolute;
   top: 40%;
+  /** position in relation to parent element **/
   left: 50%;
+  /** position in relation to parent element **/
   transform: translate(-50%, -50%);
-  /** center element relative to itself **/
+  /** position element relative to itself **/
 }
 .header .text-box .heading-primary {
   color: white;
