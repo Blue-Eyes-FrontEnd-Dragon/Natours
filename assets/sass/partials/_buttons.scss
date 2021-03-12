@@ -10,10 +10,12 @@
 
 .btn:hover {
     transform: translateY(-3px);
+    box-shadow: 0 10px 20px $shadow-trans;
 }
 
 .btn:active {
     transform: translateY(-1px);
+    box-shadow: 0 5px 10px $shadow-trans;
 }
 
 .btn-white {
