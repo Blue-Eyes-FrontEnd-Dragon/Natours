@@ -1,3 +1,13 @@
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
 /** Css Reset **/
 * {
   margin: 0;
@@ -34,9 +44,11 @@ body {
 .header .text-box {
   position: absolute;
   top: 40%;
+  /** position in relation to parent element **/
   left: 50%;
+  /** position in relation to parent element **/
   transform: translate(-50%, -50%);
-  /** center element relative to itself **/
+  /** position element relative to itself **/
 }
 .header .text-box .heading-primary {
   color: white;
@@ -47,6 +59,8 @@ body {
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 35px;
+  animation-name: moveInLeft;
+  animation-duration: 3s;
 }
 .header .text-box .heading-primary .heading-primary-sub {
   display: block;
