@@ -24,6 +24,30 @@
     transform: translate(0);
   }
 }
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  /** Round corners **/
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
+
+.btn-white {
+  background-color: white;
+  color: grey;
+}
+
 /** Css Reset **/
 * {
   margin: 0;
@@ -65,10 +89,12 @@ body {
   /** position in relation to parent element **/
   transform: translate(-50%, -50%);
   /** position element relative to itself **/
+  text-align: center;
 }
 .header .text-box .heading-primary {
   color: white;
   text-transform: uppercase;
+  margin-bottom: 60px;
   /** Fix animation shake **/
   backface-visibility: hidden;
 }

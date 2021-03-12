@@ -31,12 +31,13 @@
         top: 40%; /** position in relation to parent element **/
         left: 50%; /** position in relation to parent element **/
         transform: translate(-50%, -50%); /** position element relative to itself **/
+        text-align: center;
         
         .heading-primary {
 
             color: white;
             text-transform: uppercase;
-
+            margin-bottom: 60px;
             /** Fix animation shake **/ 
             backface-visibility: hidden;
     

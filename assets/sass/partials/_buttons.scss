@@ -1,0 +1,22 @@
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px; /** Round corners **/
+    transition: all .2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+}
+
+.btn-white {
+    background-color: white;
+    color: grey;
+}
