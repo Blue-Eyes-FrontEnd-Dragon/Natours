@@ -93,7 +93,7 @@ Using this it is possible to create complex shapes and designs.
 
  this takes a keyframe name, a animation time, a animation type and a delay time.
 
- More simplistic animations can be handled via transitioN: <code>transition: all .2s;</code>
+ More simplistic animations can be handled via transition: <code>transition: all .2s;</code>
 
  This is applied to the parent element, animations can then be smoothly played through events:
 
@@ -128,3 +128,4 @@ our lines independently, keeping this content within a single h1:
                 </h1> -->
 </code>
 </pre>
+
