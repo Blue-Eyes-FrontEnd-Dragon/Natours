@@ -17,8 +17,8 @@
 
     .logo-box {
         position: absolute;
-        top: 40px;
-        left: 40px;
+        top: 4rem;
+        left: 4rem;
 
         .logo {
             height: 3.5rem;
@@ -37,7 +37,7 @@
 
             color: white;
             text-transform: uppercase;
-            margin-bottom: 60px;
+            margin-bottom: 6rem;
             /** Fix animation shake **/ 
             backface-visibility: hidden;
     
@@ -53,7 +53,7 @@
     
             .heading-primary-sub {
                 display: block;
-                font-size: 20px;
+                font-size: 2rem;
                 font-weight: 700;
                 letter-spacing: 1.75rem;
 
