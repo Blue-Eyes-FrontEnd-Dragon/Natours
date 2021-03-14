@@ -129,3 +129,6 @@ our lines independently, keeping this content within a single h1:
 </code>
 </pre>
 
+## Sizing Tips
+
+If we set our global <code>font-size</code> to 10px we know 1 rem is exactly 10px, this helps when changing font-sizes throughout the application.

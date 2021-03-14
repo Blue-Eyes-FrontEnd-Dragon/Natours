@@ -17,11 +17,11 @@
 
     .logo-box {
         position: absolute;
-        top: 40px;
-        left: 40px;
+        top: 4rem;
+        left: 40rem;
 
         .logo {
-            height: 35px;
+            height: 3.5rem;
         }
     }
     
@@ -37,15 +37,15 @@
 
             color: white;
             text-transform: uppercase;
-            margin-bottom: 60px;
+            margin-bottom: 6rem;
             /** Fix animation shake **/ 
             backface-visibility: hidden;
     
             .heading-primary-main {
                 display: block;
-                font-size: 60px;
+                font-size: 6rem;
                 font-weight: 400;
-                letter-spacing: 35px;
+                letter-spacing: 3.5rem;
 
                 animation: 
                     moveInLeft 1s ease-out;
@@ -53,9 +53,9 @@
     
             .heading-primary-sub {
                 display: block;
-                font-size: 20px;
+                font-size: 2rem;
                 font-weight: 700;
-                letter-spacing: 17.4px;
+                letter-spacing: 1.74rem;
 
                 animation: 
                     moveInRight 1s ease-out;
