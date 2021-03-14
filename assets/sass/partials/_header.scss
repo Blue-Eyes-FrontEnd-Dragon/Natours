@@ -18,7 +18,11 @@
     .logo-box {
         position: absolute;
         top: 4rem;
+<<<<<<< HEAD
         left: 40rem;
+=======
+        left: 4rem;
+>>>>>>> hotfix/fix-px-values
 
         .logo {
             height: 3.5rem;
@@ -55,7 +59,7 @@
                 display: block;
                 font-size: 2rem;
                 font-weight: 700;
-                letter-spacing: 1.74rem;
+                letter-spacing: 1.75rem;
 
                 animation: 
                     moveInRight 1s ease-out;
