@@ -33,17 +33,17 @@
     transition: all .4s;
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveInButton .5s ease-out .75s;
     animation-fill-mode: backwards; /** Automatically apply 0% opacity before start **/
 }
 
-.btn-white {
+.btn--white {
     background-color: white;
     color: grey;
 }
 
-.btn-white::after {
+.btn--white::after {
     background-color: white;
     color: grey;
 }

@@ -15,21 +15,17 @@
         100% 75vh, 0 100%
     );
 
-    .logo-box {
+    .header__logo-box {
         position: absolute;
         top: 4rem;
-<<<<<<< HEAD
-        left: 40rem;
-=======
         left: 4rem;
->>>>>>> hotfix/fix-px-values
 
-        .logo {
+        .header__logo {
             height: 3.5rem;
         }
     }
     
-    .text-box {
+    .header__text-box {
 
         position: absolute;
         top: 40%; /** position in relation to parent element **/
@@ -45,7 +41,7 @@
             /** Fix animation shake **/ 
             backface-visibility: hidden;
     
-            .heading-primary-main {
+            .heading-primary--main {
                 display: block;
                 font-size: 6rem;
                 font-weight: 400;
@@ -55,7 +51,7 @@
                     moveInLeft 1s ease-out;
             }
     
-            .heading-primary-sub {
+            .heading-primary--sub {
                 display: block;
                 font-size: 2rem;
                 font-weight: 700;

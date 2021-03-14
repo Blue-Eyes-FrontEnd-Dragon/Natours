@@ -2,11 +2,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 html {
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
 body {
@@ -16,4 +16,6 @@ body {
     font-size: 1.6rem;
     line-height: 1.7;
     color: $light-grey;
+
+    box-sizing: border-box;
 }

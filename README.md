@@ -132,3 +132,11 @@ our lines independently, keeping this content within a single h1:
 ## Sizing Tips
 
 If we set our global <code>font-size</code> to 10px we know 1 rem is exactly 10px, this helps when changing font-sizes throughout the application.
+
+## BEM
+
+Block Element Modifier is a pattern which allows us to quickly see relations in our HTML. The B is the Block, this is the main item of the block, for instance in our header this would be the header class. We then have our elements, these are items which do not make sense in a standalone context, we would write this as <code>header__logo-box</code> for example. 
+
+An example of a block could be any element which makes sense in it's own context, for instance, our <code>heading-primary</code> could be used elsewhere, in this case it makes sense in it's own context and can be defined as it's own block.
+
+Finally, we have modifiers, modifiers are anything which modify the base version of a block, in this instance we have <code>heading-primary-main</code> which modifies <code>heading-primary</code>.
